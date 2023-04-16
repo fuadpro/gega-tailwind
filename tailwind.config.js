@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./public/**/*.{html,js,jsx}"],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         gemunu: ['Gemunu Libre', "sans-serif"],
@@ -14,7 +17,7 @@ module.exports = {
         'gega-grey': '#DDDDDD',
         'gega-white': '#F7F7F7',
       },
-      
+
     },
   },
   plugins: [],
