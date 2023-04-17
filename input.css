@@ -14,4 +14,14 @@
     a {
         @apply font-gemunu;
     }
+
+    
+        /* footer */
+    .footer-form{
+        @apply  py-1 px-2 bg-transparent border border-gega-red;
+    }
+
+    .footer-menu{
+        @apply  col-span-2 hover:text-gega-melon duration-500;
+    }
 }
